@@ -1,9 +1,10 @@
 import React from "react";
+import toast from 'react-hot-toast';
 
 const ProductCard = ({img, name, price})=>{
-
+  const notify = () => toast('Product added to cart!');
   return (
-    <div className="card">
+    <div onClick={notify} className="card">
       <img src={img} width="200px" alt="" />
       <h2> {name} </h2>
       <p> Price : $ {price} </p>

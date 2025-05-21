@@ -23,3 +23,16 @@
     transition: transform 0.2s;
     justify-content: space-between;
 }
+
+.searchContainer{
+    display: flex;
+    margin: 20px 0;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 8px;
+    width: 300px;
+}
+.searchContainer input{
+    border: none;
+    outline: none;
+}
